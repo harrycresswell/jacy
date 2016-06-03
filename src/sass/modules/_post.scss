@@ -10,6 +10,7 @@
     letter-spacing: -1px;
     line-height: 1;
     text-align: center;
+    margin-top: 60px;
 
     @include media-query($on-laptop) {
         font-size: 36px;

@@ -48,6 +48,12 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
+    border-radius: 4px;
+    overflow: hidden;
+
+    @include media-query($on-laptop) {
+      border-radius: 0;
+    }
 }
 
 
