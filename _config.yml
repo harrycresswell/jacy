@@ -9,7 +9,7 @@
 title: Jacy - Jekyll/Macy
 email: studio@harrycresswell.com
 description: > # this means to ignore newlines until "baseurl:"
-  Macy.js is a lightweight, dependency-free, 4kb masonry layout library, designed for a hassle-free configuration.
+  Jacy combines Macy.js the lightweight, dependency-free, masonry layout with the power of Jekyll, the static site generator.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://harrycresswell.com/" # the base hostname & protocol for your site
 twitter_username: twitter
