@@ -1,0 +1,29 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title }}</h2>
+      <p>{{ site.description }}</p>
+    <div class="footer-meta">
+      <div class="contact">
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </div>
+
+      <div class="social">
+          {% if site.github_username %}
+
+            {% include icon-github.html username=site.github_username %}
+
+          {% endif %}
+
+          {% if site.twitter_username %}
+
+            {% include icon-twitter.html username=site.twitter_username %}
+
+          {% endif %}
+      </div>
+    </div>
+
+  </div>
+
+</footer>

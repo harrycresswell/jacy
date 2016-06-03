@@ -1,0 +1,21 @@
+.macy-container {
+    max-width: -webkit-calc(#{$macy-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$macy-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$macy-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$macy-width} - (#{$spacing-unit}));
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.macy-style {
+  border-radius: 4px;
+  overflow: hidden;
+}

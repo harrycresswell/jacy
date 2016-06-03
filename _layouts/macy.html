@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include hero.html %}
+
+    <div class="page-content">
+      <div class="macy-container">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    <script type="text/javascript" src="../js/macy.min.js"></script>
+
+      <script>
+         Macy.init({
+          container: '#macy-container',
+          trueOrder: false,
+          waitForImages: false,
+          margin: 60,
+          columns: 3,
+          breakAt: {
+            1200: 3,
+            940: 2,
+            520: 1,
+            400: 1
+          }
+        });
+      </script>
+
+  </body>
+
+</html>

@@ -1,0 +1,17 @@
+---
+layout: macy
+---
+
+<div class="home">
+
+  <ul id="macy-container" class="post-list">
+    {% for post in site.posts %}
+      <li class="macy-style">
+          <a href="{{ post.url }}"><img src="{{ post.image_path }}" alt="{{ post.title }}"></a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
