@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Waterfall"
+title:  "Forest from Above"
 date:   2016-04-03 17:32:41 +0100
 categories: jekyll update
-image_path: https://unsplash.it/777/833/
+image_path: https://unsplash.it/700/894/
 image:
-  feature: https://unsplash.it/777/833/
+  feature: https://unsplash.it/700/894/
 ---
 
-![Waterfall](https://unsplash.it/777/833/)
+![Forest from Above](https://unsplash.it/700/894/)
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. The best way to rebuild the site is to run `gulp`, which launches a web server and auto-regenerates your site when a file is updated.
