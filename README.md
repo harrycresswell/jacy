@@ -1,10 +1,13 @@
-# jekyll-gulp-starter
+# Jacy - Jekyll/Macy
 
 #### Version 1.0
 
-A jekyll starter kit using a gulp workflow
+Jacy is a simple Jekyll starter theme, it uses [Macy.js](http://macyjs.com/), the lightweight, dependency-free, masonry layout to populate the posts.
+
+ It's built on top of my [jekyll starter](https://github.com/harrycresswell/jekyll-gulp-starter.git) theme, which uses Gulp as the build tool.
 
 Features:
+- [Macy](http://macyjs.com/)
 - [Gulp](http://gulpjs.com/)
 - [BrowserSync](http://www.browsersync.io/) for live browser reloading
 - Gulp-Sass
@@ -24,8 +27,8 @@ Features:
 
 ### Setup
 ```
-git clone https://github.com/harrycresswell/jekyll-gulp-starter.git
-cd jekyll-gulp-starter
+git clone https://github.com/harrycresswell/jacy.git
+cd jacy
 npm install
 ```
 Then run `gulp` in the terminal
